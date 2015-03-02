@@ -1,0 +1,45 @@
+{
+  "name": "json-live-test",
+  "version": "1.0.0",
+  "description": "a test of json-live",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "array-range": "^1.0.1",
+    "randf": "^1.0.0",
+    "three": "^0.70.0",
+    "three-orbit-viewer": "^69.2.8",
+    "verlet-point": "^1.2.1",
+    "verlet-system": "^1.0.15"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "budo": "^1.1.0",
+    "domready": "^1.0.7",
+    "garnish": "^2.1.0",
+    "http-server": "^0.7.5",
+    "json-live": "^0.1.11",
+    "uglify-js": "^2.4.16",
+    "watchify": "^2.4.0"
+  },
+  "scripts": {
+    "start-json": "budo index.js -o bundle.js -t json-live | garnish -v",
+    "start": "budo index.js --live -o bundle.js | garnish -v",
+    "build": "browserify index.js | uglifyjs -cm > bundle.js",
+    "json-live": "json-live | garnish"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/json-live-test.git"
+  },
+  "homepage": "https://github.com/mattdesl/json-live-test",
+  "bugs": {
+    "url": "https://github.com/mattdesl/json-live-test/issues"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "color": "#1d1d1d",
+    "shadowDarkness": 0.15,
+    "ballColor": "#71a8d6",
+    "force": [0, 0, 0],
+    "friction": 0.99,
+    "gravity": [0, -300, 0],
+    "floorColor": "#e0e0e0",
+    "text": "lorem ipsum dolor sit amet"
+}
