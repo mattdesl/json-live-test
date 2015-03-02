@@ -2,6 +2,9 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
+Demo: http://mattdesl.github.io/json-live-test  
+Screencast: https://www.youtube.com/watch?v=b071yBZx-hY  
+
 Experiments with [json-live](https://github.com/mattdesl/json-live) and [budo](https://github.com/mattdesl/budo) for rapid prototyping.
 
 ```sh
